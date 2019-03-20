@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css">
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <script src="js/scripts.js"></script>
+    <title>Fortune Teller</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="jumbotron">
+        <h2>Fortune Teller</h2>
+      </div>
+      <form id="fortune-teller">
+        <div class="form-group">
+          <p>These are some of my unlucky events in the last month:</p>
+          <input type="checkbox" name="unlucky-event" value="murdering">murdering<br>
+          <input type="checkbox" name="unlucky-event" value="breaking-stuff">breaking stuff<br>
+          <input type="checkbox" name="unlucky-event" value="stimming">stimming<br>
+          <input type="checkbox" name="unlucky-event" value="being-naked">being naked<br>
+          <input type="checkbox" name="unlucky-event" value="drinking-alcohol">drinking alcohol<br>
+          <input type="checkbox" name="unlucky-event" value="video-games">video games<br>
+        </div>
+        <div class="form-group">
+          <p>These are some of my lucky events in the last month:</p>
+          <input type="checkbox" name="lucky-event" value="mother's-day">mother's day<br>
+          <input type="checkbox" name="lucky-event" value="st-patrick's-day">st patrick's day<br>
+          <input type="checkbox" name="lucky-event" value="easter">easter<br>
+          <input type="checkbox" name="lucky-event" value="independence-day">independence day<br>
+          <input type="checkbox" name="lucky-event" value="memorial-day">memorial day<br>
+          <input type="checkbox" name="lucky-event" value="thanksgiving-day">thanksgiving day<br>
+        </div>
+        <button type="submit">Read Fortune</button>
+      </form>
+
+      <div id="unlucky">
+        <p>Your fortune is unlucky.</p>
+      </div>
+      <div id="lucky">
+        <p>Your fortune is lucky.</p>
+      </div>
+      <div id="inbetween">
+        <p>Your fortune is inbetween.</p>
+      </div>
+    </div>
+  </body>
+</html>
