@@ -2,14 +2,26 @@
   display: none;
   color: red;
   font-size: 40px;
+  padding: 20px;
+  margin: 20px;
+  border: 20px;
+  float: left;
 }
 #lucky {
   display: none;
   color: green;
   font-size: 40px;
+  padding: 20px;
+  margin: 20px;
+  border: 20px;
+  float: left;
 }
 #inbetween {
   display: none;
   color: blue;
   font-size: 40px;
+  padding: 20px;
+  margin: 20px;
+  border: 20px;
+  float: left;
 }
